@@ -1,0 +1,16 @@
+{
+	"todos": [
+		{
+			"id": "1",
+			"todo": "html",
+			"content": "html is not programming language",
+			"completed": true
+		},
+		{
+			"id": "2",
+			"todo": "css",
+			"content": "css is fuxk",
+			"completed": false
+		}
+	]
+}
