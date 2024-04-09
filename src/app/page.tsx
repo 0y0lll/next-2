@@ -1,6 +1,7 @@
 import { Box } from '@mui/material'
 import Image from 'next/image'
 import Link from 'next/link'
+import IntroImage from '/public/images/DSCF3120.jpg'
 
 export default function Home() {
 	return (
@@ -34,10 +35,12 @@ export default function Home() {
 					}}
 				>
 					<Image
-						src="/images/DSCF3120.jpg"
+						src={IntroImage}
 						alt="Intro image"
-						width={600}
-						height={338}
+						style={{
+							width: '100%',
+							height: 'auto',
+						}}
 					/>
 				</Box>
 			</Box>
